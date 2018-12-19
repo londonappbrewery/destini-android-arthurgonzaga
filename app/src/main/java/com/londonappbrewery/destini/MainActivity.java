@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void updateQuestion(int answer){
 
-        // Buttom Top answers
+        // Button Top answers
         if(answer == BUTTON_TOP && mStoryIndex == 0){
             mStoryIndex += 2;
             storyTextView.setText(mStringStories[mStoryIndex]);
@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
             },10000);
         }
 
-        // Buttom Bottom answers
+        // Button Bottom answers
         if(answer == BUTTON_BOTTOM && mStoryIndex == 0){
             mStoryIndex ++;
             storyTextView.setText(mStringStories[mStoryIndex]);
